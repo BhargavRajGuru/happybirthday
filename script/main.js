@@ -33,11 +33,6 @@ const animationTimeline = () => {
         .split("")
         .join("</span><span>")}</span>`;
 
-    const ideaText5 = document.getElementsByClassName("idea-5")[0];
-    ideaText5.innerHTML = `<span>${ideaText5.innerHTML
-        .split("")
-        .join("</span><span>")}</span>`;
-
     const ideaTextTrans = {
         opacity: 0,
         y: -20,
@@ -144,15 +139,12 @@ const animationTimeline = () => {
         },
         "+=1.5"
     )
-    .staggerFromTo(
-        ".idea-5 span",
-        0.05, {
-            opacity: 0,
+    .to(
+        ".idea-5",
+        3, {
+            visibility: "visible"
         },
-        {
-            opacity: 1,
-        },
-        0.05
+        "+=0"
     )
     .to(
         ".idea-5",
