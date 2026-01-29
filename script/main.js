@@ -141,7 +141,7 @@ const animationTimeline = () => {
     )
     .to(
         ".idea-5",
-        3, {
+        6, {
             visibility: "visible"
         },
         "+=0"
