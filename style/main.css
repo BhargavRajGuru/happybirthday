@@ -250,6 +250,8 @@ body {
   }
 
   .six .hat {
+    left: 24%;
+    top: -42%;
     width: 50px;
   }
 
