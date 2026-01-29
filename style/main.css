@@ -111,7 +111,7 @@ body {
 .six .hat {
   left: 43%;
   position: absolute;
-  top: -35%;
+  top: -28%;
   transform: translateX(-50%);
   width: 80px;
 }
@@ -251,7 +251,7 @@ body {
 
   .six .hat {
     left: 43%;
-    top: -35%;
+    top: -28%;
     width: 50px;
   }
 
