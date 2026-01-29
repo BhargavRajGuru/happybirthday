@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hat Position Test</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+      background: #f0f0f0;
+    }
+
+    .six {
+      position: relative;
+      display: inline-block;
+      margin-top: 50px;
+    }
+
+    .six img {
+      display: inline-block;
+      height: 350px;
+      max-width: 100%;
+    }
+
+    .six .hat {
+      left: 47%;
+      position: absolute;
+      top: -25%;
+      transform: translateX(-50%);
+      width: 80px;
+      border: 2px solid red;
+    }
+  </style>
+</head>
+<body>
+  <h2>Hat Position Test</h2>
+  <div class="six">
+    <img src="./img/anshika.jpg" alt="profile" class="profile-picture"/>
+    <img src="img/hat.svg" alt="hat" class="hat" />
+  </div>
+</body>
+</html>
